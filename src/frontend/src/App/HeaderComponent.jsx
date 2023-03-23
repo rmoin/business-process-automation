@@ -5,7 +5,7 @@ const HeaderComponent = (props) => {
     
     return (
         <div style={{backgroundColor: "rgb(0, 120, 212)", color: "white", padding: "10px" }}>
-            <Text size="large" content="Business Process Automation Accelerator" />
+            <Text size="large" content="Turigma Turbo" />
             {/* <Header content='Business Process Automation Accelerator' className="header" style={{ fontSize: "20px", color: "white", backgroundColor: "rgb(0, 120, 212)" }} /> */}
             </div>
         // <div className="header" style={{fontFamily: props.theme.siteVariables.bodyFontFamily,  backgroundColor: props.theme.siteVariables.colorScheme.brand.background, color : props.theme.siteVariables.colorScheme.brand.foreground, fontSize: props.theme.siteVariables.fontSizes.larger}}>
