@@ -29,9 +29,9 @@ export default function Home(props) {
 
     return (
         <div style={{ paddingLeft: "0px", paddingTop: "50px" }}>
-            <Text weight="semibold" style={{ fontSize: "25px", display: "block", marginBottom: "20px" }}>Welcome to the Business Process Automation Accelerator</Text>
+            <Text weight="semibold" style={{ fontSize: "25px", display: "block", marginBottom: "20px" }}>Turigma Turbo</Text>
             <Text style={{ display: "block", marginBottom: "10px" }}>
-                Build multi-stage AI/ML pipelines across Azure AI and ML Services using pretrained, or your own custom/open source models in our Cognitive Services Studio (<span><a href="https://github.com/Azure/business-process-automation">Learn More</a></span>). Create a new pipeline by selecting “Configure a New Pipeline” below. After the input file type is selected, new Services will appear within your pipeline builder from (Azure Language, Form Recognizer, Speech, etc..), based on the file type (e.g. audio files). As files are transformed or converted, from images or audio to text, new Services will become available to be added to the pipeline builder. For example, Language Services options for data that has been transformed to text.
+                Build multi-stage AI/ML pipelines across AI and ML Services using pretrained, or your own custom/open source models in our Studio. Create a new pipeline by selecting “Configure a New Pipeline” below. After the input file type is selected, new Services will appear within your pipeline builder from (Azure Language, Form Recognizer, Speech, etc..), based on the file type (e.g. audio files). As files are transformed or converted, from images or audio to text, new Services will become available to be added to the pipeline builder. For example, Language Services options for data that has been transformed to text.
             </Text>
             <Text style={{ display: "block", marginBottom: "10px" }}>
                 As you start to build longer pipelines, with multiple transformations, you can optionally continue building the pipeline against data in an earlier stage within the pipeline, with the “Change Output” card.
